@@ -114,6 +114,10 @@
 .box{
 	padding-left: 98px;
 }
+.paket{
+	max-width: 518px;
+	width: 100%;
+}
 /*end float section*/
 
 /*orange boxes*/
@@ -229,7 +233,6 @@
 	font-size: 20px;
 }
 .email-box{
-	width: 608px;
 	margin: 0 auto;
 }
 .email-section{
@@ -255,6 +258,33 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
+.form-info{
+	width: 100%;
+	margin-top: 8px;
+	padding: 5px;
+	font-size: 18px;
+	font-family: 'Lobster';
+	border-radius: 10px;
+}
+.form-section{
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+}
+.form-box{
+	margin-bottom: 20px;
+}
+.message-box{
+	height: 200px;
+	resize: none;
+}
+.button{
+	font-size: 20px;
+	transition: all 0.5s ease;
+}
+.button:hover{
+	background-color: red;
+}
 /*end last socials*/
 
 /*footer*/
@@ -271,6 +301,9 @@
 	font-size: 14px;
 	color: #6D6D6D;
 }
+.footer-text-2{
+	margin-left: 10px;
+}
 .footer-title{
 	font-size: 18px;
 }
@@ -279,6 +312,9 @@
 	padding-bottom: 56px;
 	display: flex;
 	justify-content: space-between;
+}
+.flex-wax{
+	display: flex;
 }
 .block{
 	width: 145px;

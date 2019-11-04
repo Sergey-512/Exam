@@ -17,7 +17,7 @@
 		<div class="container">
 			<div class="flex">
 				<nav class="nav">
-					<ul class="flex">
+					<ul class="flex flex-r">
 						<li>
 							<i class="fas fa-envelope social"></i>
 						</li>
@@ -32,7 +32,7 @@
 						</li>
 					</ul>
 				</nav>
-				<h3 class="my-font"> WAX </h3>
+				<h3 class="my-font wax-title"> WAX </h3>
 				<div class="right-block">
 					<ul class="nav-ul-2 flex">
 						<li>
@@ -59,7 +59,7 @@
 	</section>
 	<section class="container">
 		<div class="f-r">
-			<img src="images/paket.jpg">
+			<img class="paket" src="images/paket.jpg">
 		</div>
 		<div class="box f-l">
 			<ul>
@@ -212,14 +212,26 @@
 			<i class="fab fa-twitter social-last-icons"></i>
 		</div>
 		<p class="my-font social-text"> Special Benefits for Our Subscribers </p>
-		<div class="email-box">
-			<div class="email-section p-rel">
-				<p class="my-font email-text p-abs"> Enter your e-mail address </p>
+		<form class="form-section">
+			<div class="form-box">
+				<label for="name" class="my-font">Login</label>
+				<input type="text" name="name" id="name" class="form-info" placeholder="Write your login" required>
 			</div>
-			<div class="email-section-2 p-rel">
-				<p class="my-font email-text-2 p-abs"> Subscribe </p>
+			<div class="form-box">
+				<label for="mypassword" class="my-font">Password</label>
+				<input type="password" name="mypassword" maxlength="8" id="mypassword" class="form-info" placeholder="Write your password" required>
 			</div>
-		</div>
+			<div class="form-box">
+				<label for="email" class="my-font">Email</label>
+				<input type="email" name="email" id="email" class="form-info" placeholder="Write your email" required>
+			</div>
+			<div class="form-box">
+				<label class="my-font">Message</label>
+				<textarea name="message" class="form-info message-box" placeholder="Write your text here"> </textarea>
+			</div>
+			<input type="checkbox" name="terms" value="sign"> I am agree with everything <br><br>
+			<button type="submit" class="my-font button">Register</button>
+		</form>
 	</section>
 	<footer class="footer-section">
 		<div class="container">
@@ -229,28 +241,28 @@
 						<li class="footer-wax">
 							<p class="my-font wax"> WAX </p>
 						</li>
-						<div class="flex">
+						<div class="flex-wax">
 							<li class="footer-li">
 								<i class="fas fa-envelope social-3"></i>
 							</li>
 							<li class="footer-li footer-li-2">
-								<p class="my-font footer-text">example@gmail.com</p>
+								<p class="my-font footer-text footer-text-2">example@gmail.com</p>
 							</li>
 						</div>
-						<div class="flex">
+						<div class="flex-wax">
 							<li class="footer-li">
 								<i class="fas fa-phone-alt social-3"></i>
 							</li>
 							<li class="footer-li">
-								<p class="my-font footer-text">1-85-432-467</p>
+								<p class="my-font footer-text footer-text-2">1-85-432-467</p>
 							</li>
 						</div>
-						<div class="flex">
+						<div class="flex-wax">
 							<li>
 								<i class="fas fa-map-marker-alt social-3"></i>
 							</li>
 							<li>
-								<p class="my-font footer-text">P.O. Box 543833</p>
+								<p class="my-font footer-text footer-text-2">P.O. Box 543833</p>
 							</li>
 						</div>
 					</ul>
