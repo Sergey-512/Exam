@@ -136,6 +136,7 @@
 .orange-p{
 	font-size: 20px;
 	margin-top: 32px;
+	transition: all 2s linear;
 }
 .mar{
 	margin-top: 16px;
@@ -143,6 +144,7 @@
 .orange-p-1{
 	font-size: 20px;
 	margin: 3px 0 16px 0;
+	transition: all 2s linear;
 }
 .orange-p-2{
 	font-size: 12px;
@@ -150,10 +152,12 @@
 }
 .social-2{
 	font-size: 40px;
+	transition: all 2s linear;
 	/*transition: font-size 2s linear 2s;*/
 }
 .orange-box:nth-child(3){
 	background-color: #E56453;
+	transition: all 2s linear;
 	/*transition: color 2s linear 2s;*/
 }
 .orange-box:nth-child(3):hover{
@@ -321,7 +325,8 @@
 	margin-right: 245px;
 }
 .footer-ul{
-	width: 208px;
+	display: flex;
+	flex-direction: column;
 }
 .footer-wax{
 	padding-top: 8px;
